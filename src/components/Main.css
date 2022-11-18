@@ -1,0 +1,20 @@
+.main__area {
+    margin: 4rem 3rem;
+}
+
+.main__area .products__header {
+    text-align: center;
+    margin: 1rem 0 4rem 0;
+}
+
+.main__area .products__header p {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.main__area .products__area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 4fr));
+    gap: 0.8rem;
+}

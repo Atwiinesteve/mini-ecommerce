@@ -1,0 +1,44 @@
+.hero__area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.text__area {
+    width: 700px;
+}
+
+.text__area .main__heading {
+    margin-bottom: 1rem;
+}
+
+.text__area .main__heading p {
+    color: #000000;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.text__area .opening__text p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text__area .opening__buttons button {
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: none;
+    background: #FF63F4;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.text__area .opening__buttons button:nth-child(1) {
+    margin-right: 1rem;
+}

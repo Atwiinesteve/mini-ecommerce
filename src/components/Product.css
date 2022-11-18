@@ -1,0 +1,51 @@
+.product {
+    width: 400px;
+    height: 500px;
+}
+
+.product .product__image img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product .product__name {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0.6rem 0rem;
+}
+
+.product .product__description p {
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.product .product__price p {
+    color: #FF63F4;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.product__buttons {
+    display: flex;
+}
+
+.product__buttons button {
+    padding: 0.7rem 1rem;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    background: rgb(235, 235, 235);
+}
+
+.product__buttons button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.product__buttons button:hover {
+    cursor: pointer;
+}
