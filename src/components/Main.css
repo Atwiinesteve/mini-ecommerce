@@ -15,6 +15,16 @@
 
 .main__area .products__area {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 0.8rem;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .main__area .products__header p {
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+
 }

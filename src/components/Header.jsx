@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../components/Header.css'
 
-import heroImage from '../images/pink.png'
+import heroImage from '../images/favpng_shopping-bag-clip-art.png'
 
 function Header() {
 

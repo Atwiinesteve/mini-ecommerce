@@ -1,15 +1,220 @@
 .hero__area {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+    place-content: center;
+    place-items: center;
     margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.hero__area .hero__image img {
+    width: 400px;
+    height: 300px;
 }
 
 .text__area {
-    width: 700px;
+    width: 80%;
 }
+
+.hero__image {
+    width: 50%;
+}
+
+@media screen and (max-width: 400px) {
+
+    .hero__area .hero__image img {
+        width: 100px;
+        height: 50px;
+        margin-top: 1rem;
+    }
+
+    .hero__image {
+        width: 100%!important;
+    }
+
+    .text__area .main__heading {
+        margin-bottom: 1rem!important;
+    }
+    
+    .text__area .main__heading p {
+        color: #000000;
+        font-size: 0.3rem!important;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .text__area .opening__text p {
+        font-size: 1.1rem!important;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .hero__area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .hero__area .hero__image img {
+        width: 300px!important;
+        height: 200px!important;
+        margin-top: 1rem!important;
+    }
+
+    .hero__image {
+        width: 100%!important;
+    }
+
+    .text__area .main__heading {
+        margin-bottom: 1rem!important;
+    }
+    
+    .text__area .main__heading p {
+        color: #000000;
+        font-size: 2rem!important;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .text__area .opening__text p {
+        font-size: 1.1rem!important;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .hero__area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .hero__area .hero__image img {
+        width: 500px!important;
+        height: 400px!important;
+        margin-top: 1rem!important;
+    }
+
+    .text__area .main__heading {
+        margin-bottom: 1.5rem!important;
+    }
+    
+    .text__area .main__heading p {
+        color: #000000;
+        font-size: 3rem!important;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .text__area .opening__text p {
+        font-size: 1.3rem!important;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .hero__area {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .hero__area .hero__image img {
+        width: 500px!important;
+        height: 400px!important;
+        margin-top: 1rem!important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text__area .main__heading {
+        margin-bottom: 2rem!important;
+    }
+    
+    .text__area .main__heading p {
+        color: #000000;
+        font-size: 3rem!important;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .text__area .opening__text p {
+        font-size: 1.3rem!important;
+        text-align: center;
+        margin-bottom: 2rem!important;
+    }
+    
+    .text__area .opening__buttons {
+        margin-bottom: 2rem!important;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .hero__area {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .hero__area .hero__image img {
+        width: 500px!important;
+        height: 400px!important;
+        margin-top: 1rem!important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text__area .main__heading {
+        margin-bottom: 2rem!important;
+    }
+    
+    .text__area .main__heading p {
+        color: #000000;
+        font-size: 3rem!important;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .text__area .opening__text p {
+        font-size: 1.3rem!important;
+        text-align: center;
+        margin-bottom: 2rem!important;
+    }
+    
+    .text__area .opening__buttons {
+        margin-bottom: 2rem!important;
+    }
+
+}
+
+
 
 .text__area .main__heading {
     margin-bottom: 1rem;
@@ -17,12 +222,12 @@
 
 .text__area .main__heading p {
     color: #000000;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .text__area .opening__text p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
