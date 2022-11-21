@@ -4,7 +4,7 @@
 }
 
 .product .product__image img {
-    width: 400px;
+    width: 350px;
     height: 300px;
     object-fit: contain;
 }
@@ -48,4 +48,20 @@
 
 .product__buttons button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .product .product__name {
+        font-size: 1.5rem;
+    }
+    
+    .product .product__description p {
+        font-size: 1.2rem;
+    }
+    
+    .product .product__price p {
+        font-size: 1.2rem;
+    }
+    
 }
