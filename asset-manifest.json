@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mini-ecommerce/static/css/main.200332ea.css",
+    "main.css": "/mini-ecommerce/static/css/main.39df6717.css",
     "main.js": "/mini-ecommerce/static/js/main.e6c120d7.js",
     "static/media/favpng_shopping-bag-clip-art.png": "/mini-ecommerce/static/media/favpng_shopping-bag-clip-art.8dd4652f2d018ed56db6.png",
     "index.html": "/mini-ecommerce/index.html",
-    "main.200332ea.css.map": "/mini-ecommerce/static/css/main.200332ea.css.map",
+    "main.39df6717.css.map": "/mini-ecommerce/static/css/main.39df6717.css.map",
     "main.e6c120d7.js.map": "/mini-ecommerce/static/js/main.e6c120d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.200332ea.css",
+    "static/css/main.39df6717.css",
     "static/js/main.e6c120d7.js"
   ]
 }
